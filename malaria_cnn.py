@@ -18,9 +18,9 @@ class Config:
     epochs = 30
     lr = 1e-4
     weight_decay = 1e-5
-    train_images_dir = "/jet/home/srikanta/Spring2025/nndl-hw2/NNDL_HW2/dataset/train_images/"
-    test_images_dir = "/jet/home/srikanta/Spring2025/nndl-hw2/NNDL_HW2/dataset/test_images"
-    train_csv = "/jet/home/srikanta/Spring2025/nndl-hw2/NNDL_HW2/dataset/train_data.csv"
+    train_images_dir = "/path_to/train_images/"
+    test_images_dir = "/path_to/test_images"
+    train_csv = "/path_to/train_data_labels.csv"
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Preprocessing (as per paper)
