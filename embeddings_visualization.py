@@ -13,7 +13,7 @@ import torch.nn as nn
 class Config:
     img_size = 224
     batch_size = 32
-    test_images_dir = "/jet/home/srikanta/Spring2025/nndl-hw2/NNDL_HW2/dataset/test_images"
+    test_images_dir = "/path_to/test_images"
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Preprocessing
